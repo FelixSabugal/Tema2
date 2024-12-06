@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/menu.css">
+    <link rel="stylesheet" href="estilos/pie.css">
+    <link rel="stylesheet" href="estilos/pasos.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="https://archicofradiasantisimojerez.es/wp-content/uploads/2018/11/Escudo-1-250x300.jpg" height="90" width="90" alt="logo de la cofradía">
+            <ul class="menu">
+                <li><a href="index.html"><u>Inicio</u></a></li>
+                <li><a href="mapasitioweb.html"><u>Mapa del Sitio web</u></a></li>
+                <li><a href="jesus_de_la_santa_cena.html"><u>Jesús de la Santa Cena</u></a></li>
+                <li><a href="jesus_de_la_humildad.html"><u>Jesús de la Humildad</u></a></li>
+                <li><a href="jesus_de_la_piedad.html"><u>Jesús de la Piedad</u></a></li>
+                <li><a href="virgen_de_la_paz.html"><u>Virgen de la Paz</u></a></li>
+                <li><a href="contacto.html"><u>Contacto</u></a></li>
+                <li>
+                    <select id="idioma-selector">
+                        <option value="es">Español</option>
+                        <option value="en">Inglés</option>
+                        <option value="fr">Francés</option>
+                        <option value="ger">Alemán</option>
+                    </select>
+                </li>
+            </ul>
+            <form class="search-bar" action="buscar.html" method="GET">
+                <input type="text" name="query" placeholder="Buscar..." aria-label="Buscar">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <center>
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre completo"><br><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required placeholder="correoprueba@gmail.com"><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Rellene con lo que desea indicar al encargado de la web (maximo 4 lineas)"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </center>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Archicofradía Santisimo Sacramento. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>

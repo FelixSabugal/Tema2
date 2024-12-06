@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Completa</title>
+    <link rel="stylesheet" href="estilos/menu.css">
+    <link rel="stylesheet" href="estilos/pie.css">
+    <link rel="stylesheet" href="estilos/pasos.css">
+</head>
+<body>
+
+    <!-- Encabezado con el menú -->
+    <header>
+        <div class="header">
+            <img src="https://archicofradiasantisimojerez.es/wp-content/uploads/2018/11/Escudo-1-250x300.jpg" height="90" width="90" alt="logo de la cofradía">
+            <ul class="menu">
+                <li><a href="index.html"><u>Inicio</u></a></li>
+                <li><a href="mapasitioweb.html"><u>Mapa del Sitio web</u></a></li>
+                <li><a href="jesus_de_la_santa_cena.html"><u>Jesús de la Santa Cena</u></a></li>
+                <li><a href="jesus_de_la_humildad.html"><u>Jesús de la Humildad</u></a></li>
+                <li><a href="jesus_de_la_piedad.html"><u>Jesús de la Piedad</u></a></li>
+                <li><a href="virgen_de_la_paz.html"><u>Virgen de la Paz</u></a></li>
+                <li><a href="contacto.html"><u>Contacto</u></a></li>
+                <li>
+                    <select id="idioma-selector">
+                        <option value="es">Español</option>
+                        <option value="en">Inglés</option>
+                        <option value="fr">Francés</option>
+                        <option value="ger">Alemán</option>
+                    </select>
+                </li>
+            </ul>
+            <input type="text" id="searchInput" placeholder="Buscar..." oninput="searchText()">
+            <div id="search-results"></div>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main id="inicio">
+    <div id="content">
+        <h1>Bienvenidos a la Archicofradía del Santísimo Sacramento</h1>
+        <section>
+            <h2>¿Quiénes somos?</h2>
+            <p>La Archicofradía del Santísimo Sacramento tiene una profunda tradición religiosa que se remonta a siglos pasados. Como una de las principales hermandades en la región, su misión es promover la fe, la solidaridad y la cultura en nuestra comunidad.</p>
+        </section>
+
+        <section>
+            <h2>Nuestra Historia</h2>
+            <p>Fundada en el siglo XVI, la Archicofradía ha sido un pilar fundamental en la devoción religiosa de la localidad. A lo largo de los años, hemos mantenido vivas nuestras tradiciones, realizando procesiones, celebraciones y otros actos litúrgicos. Cada año, miles de fieles se reúnen para rendir homenaje a nuestras imágenes y a la Santísima Trinidad.</p>
+            <center>
+            <img src="https://archicofradiasantisimojerez.es/wp-content/uploads/2018/11/Escudo-1-250x300.jpg" alt="Imagen histórica de la Archicofradía" style="width: 90; height: 90;">
+            </center>
+        </section>
+
+        <section>
+            <h2>Próximos Eventos</h2>
+            <p>A continuación, te compartimos los eventos más importantes de este año:</p>
+            <ul>
+                <li><strong>Semana Santa 2024:</strong> Participación activa en las procesiones de la ciudad.</li>
+                <li><strong>Conciertos Sacros:</strong> Disfruta de la música sacra en nuestras celebraciones litúrgicas.</li>
+                <li><strong>Retiros Espirituales:</strong> Un tiempo de reflexión y encuentro con la fe.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Colabora con Nosotros</h2>
+            <p>Tu apoyo es fundamental para continuar con nuestra labor. Puedes colaborar con nosotros de diferentes maneras:</p>
+            <ul>
+                <li>Realizando una donación.</li>
+                <li>Participando como voluntario en nuestras actividades.</li>
+                <li>Difundiendo nuestras iniciativas entre amigos y familiares.</li>
+            </ul>
+            <p>Para más información sobre cómo puedes ayudar, visita nuestra sección <a href="contacto.html">de contacto</a>.</p>
+        </section>
+    </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Archicofradía Santísimo Sacramento. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="buscar.js"></script>
+</body>
+</html>

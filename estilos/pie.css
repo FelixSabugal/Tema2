@@ -1,0 +1,30 @@
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.social-media {
+    display: flex; /* Cambiar a flexbox para disposición horizontal */
+    justify-content: center; /* Centrar los elementos */
+    margin-top: 5px;
+}
+
+.social-media a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px; /* Espaciado entre enlaces */
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
